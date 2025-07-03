@@ -65,7 +65,7 @@ function login(event) {
 
 // Redireccionar a IndexP.html si login es exitoso
 function navigateToIndex() {
-  window.location.href = `IndexP.html`;
+  window.location.href = `index.html`;
 }
 
 
