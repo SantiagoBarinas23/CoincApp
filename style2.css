@@ -1,0 +1,41 @@
+body {
+
+      background-image: url('Imagen De Fondo.png'); 
+      background-repeat: no-repeat;
+
+}
+
+.login-box {
+
+      background-color: rgba(0, 0, 0, 0.75);
+      padding: 2rem;
+      border-radius: 10px;
+      color: white;
+      max-width: 400px;
+      margin: auto;
+
+}
+
+.btn-netflix {
+
+      background-color: #e50914;
+      color: white;
+
+}
+
+.btn-netflix:hover {
+    
+      background-color: #f6121d;
+
+}
+
+.form-check-label, a {
+
+      color: #b3b3b3;
+}
+
+a:hover {
+
+      color: white;
+      
+}

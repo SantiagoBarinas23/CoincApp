@@ -1,0 +1,115 @@
+body {
+      background-color: #000;
+      color: white;
+    }
+
+    /* Primera Parte */
+    .navbar {
+      background-color: #141414;
+    }
+
+    .navbar-brand {
+      font-weight: bold;
+      color: red;
+      font-size: 40px;
+    }
+
+    .nav-link {
+      color: rgb(255, 255, 255) !important;
+    }
+
+    .nav-link.active {
+      font-weight: bold;
+    }
+
+    .icon-btn {
+      background: none;
+      border: none;
+      color: white;
+      margin-left: 20px;
+      font-size: 20px;
+    }
+
+    .notification-badge {
+      position: absolute;
+      top: 5px;
+      right: 5px;
+      background: red;
+      color: white;
+      border-radius: 50%;
+      font-size: 10px;
+      padding: 2px 5px;
+    }
+
+    .profile-img {
+      width: 32px;
+      height: 32px;
+      border-radius: 4px;
+    }
+
+    /* Segunda Parte */
+
+    .header-bar {
+      background-color: #141414;
+      padding: 1rem;
+    }
+
+    .dropdown-menu {
+      background-color: #141414;
+    }
+
+    .dropdown-item {
+      color: white;
+    }
+
+    .dropdown-item:hover {
+      background-color: #ffffff;
+    }
+
+    .view-toggle button {
+      border: 1px solid white;
+      color: white;
+      background-color: transparent;
+    }
+
+    .view-toggle button:hover {
+      background-color: #333;
+    }
+
+
+    /* Tercera Parte */
+
+    .movie-img {
+      width: 100%;
+      height: auto;
+      border-radius: 4px;
+      position: relative;
+    }
+
+    .movie-card {
+      position: relative;
+      margin-right: 10px;
+      flex: 0 0 auto;
+      width: 200px;
+    }
+
+
+    .scrolling-wrapper {
+      overflow-x: auto;
+      display: flex;
+      flex-wrap: nowrap;
+      padding-bottom: 10px;
+    }
+
+    .scrolling-wrapper::-webkit-scrollbar {
+      height: 8px;
+    }
+
+    .scrolling-wrapper::-webkit-scrollbar-thumb {
+      background: #555;
+      border-radius: 4px;
+    }
+
+    .scrolling-wrapper::-webkit-scrollbar-track {
+      background: #222;
+    }
